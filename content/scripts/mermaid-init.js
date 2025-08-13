@@ -1,4 +1,4 @@
-/* Initialize Mermaid and re-render on MkDocs Material page changes */
+/* Initialize Mermaid and re-render on SPA navigation if available */
 (function () {
   function render() {
     if (window.mermaid) {
@@ -11,7 +11,7 @@
     }
   }
   document.addEventListener('DOMContentLoaded', render);
-  // MkDocs Material emits window.document$ for SPA navigation
+  // Some SPA docs frameworks emit window.document$ for navigation events
   if (window && window.document$) {
     window.document$.subscribe(render);
   }
