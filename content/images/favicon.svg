@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 256 256" role="img" aria-label="LONDON Favicon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3f51b5"/>
+      <stop offset="100%" stop-color="#5c6bc0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="48" fill="url(#g)"/>
+  <g fill="#fff">
+    <path d="M88 176V92h32c22 0 34 11 34 26 0 13-7 22-19 25l22 33h-21l-19-29h-9v29H88zm17-45h14c13 0 19-6 19-14 0-9-6-13-19-13h-14v27z"/>
+  </g>
+</svg>

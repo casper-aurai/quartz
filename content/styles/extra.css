@@ -1,0 +1,11 @@
+:root {
+  /* Tweak Material theme accents */
+  --md-primary-fg-color: #3f51b5; /* indigo */
+  --md-accent-fg-color: #3f51b5;
+}
+
+/* Make code blocks for Obsidian-only syntaxes visually distinct */
+.md-typeset pre code { border-left: 3px solid #3f51b5; }
+
+/* Tighten nav spacing slightly */
+.md-nav__link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
